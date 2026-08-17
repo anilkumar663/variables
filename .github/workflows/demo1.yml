@@ -13,6 +13,6 @@ jobs:
       greeting: Hello
     steps:
     - name: "Say Hello honey its Monday"
-      run: echo "$greeting $First_Name is using $cloud"
+      run: echo "$greeting $First_Name is using $cloud with project ${{ vars.PROJECT_ID }}"
       env:
         First_Name: Anil
